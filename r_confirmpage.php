@@ -121,7 +121,7 @@ else{
 	</div> <!-- end of content wrapper -->      
     
     <div id="footer">
-    	Copyright © 2012 <a href="index.php">IFood</a>
+    	Copyright © 2017 <a href="index.php">IFood</a>
     </div>
 
 </div> 
