@@ -12,8 +12,8 @@ $mail->SMTPAuth   = true;
 $mail->SMTPSecure = "ssl";                 
 $mail->Host       = "smtp.gmail.com";     
 $mail->Port       = 465;                  
-$mail->Username   = "reelroomrp@gmail.com"; 
-$mail->Password   = "901031szl";           
+$mail->Username   = "douzi.doris@gmail.com";
+$mail->Password   = "848323abc";
 if($_POST['date']!=null){
 $people=$_POST['people'];
 $user_id=$_SESSION['user_id'];
@@ -30,8 +30,8 @@ if($inserted){
      $getEmail = mysqli_query($link, $query) or die(mysqli_error($link));
      $row=mysqli_fetch_array($getEmail);
      $to = $row['admin_email'];
-    $mail->SetFrom('reelroomrp@gmail.sg', 'Reel Room');
-    $mail->AddReplyTo('reelroomrp@gmail.sg',"Reel Room");
+    $mail->SetFrom('douzi.doris@gmail.com', 'IFood');
+    $mail->AddReplyTo('douzi.doris@gmail.com',"IFood");
     $mail->Subject    = "New Reservation";
     $mail->Body = "A new reservation is coming.";
     $address = $to;
@@ -52,7 +52,7 @@ else{
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Reel Room</title>
+<title>IFood</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -84,7 +84,7 @@ else{
             <li><a href="menu.php" >Menu</a></li>
             <li><a href="reservation.php">Reservation</a></li>
             <li><a href="order.php" >Order</a></li>
-            <li><a href="trackOrder.php">My Reel Room</a></li>
+            <li><a href="trackOrder.php">My IFood</a></li>
             <li><a href="about_us.php">About US</a></li>
 </ul>
         
@@ -121,7 +121,7 @@ else{
 	</div> <!-- end of content wrapper -->      
     
     <div id="footer">
-    	Copyright © 2012 <a href="index.php">Reel Room</a>
+    	Copyright © 2012 <a href="index.php">IFood</a>
     </div>
 
 </div> 

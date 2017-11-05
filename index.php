@@ -18,7 +18,7 @@ $rowU=  mysqli_fetch_array($get);
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Reel Room</title>
+<title>IFood</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
 <script src="js/js-image-slider.js" type="text/javascript"></script>
@@ -80,7 +80,7 @@ $(document).ready(function(){
             <li><a href="menu.php" >Menu</a></li>
             <li><a href="reservation.php">Reservation</a></li>
             <li><a href="order.php" >Order</a></li>
-            <li><a href="trackOrder.php">My Reel Room</a></li>
+            <li><a href="trackOrder.php">My IFood</a></li>
             <li><a href="about_us.php">About US</a></li>
 </ul>
         
@@ -223,7 +223,7 @@ $getImg= mysqli_query($link, $gImg) or die(mysqli_error($link));
 	</div> <!-- end of content wrapper -->      
     
     <div id="footer">
-    	Copyright © 2012 <a href="index.php">Reel Room</a>
+    	Copyright © 2012 <a href="index.php">IFood</a>
     </div>
 <!-- end of container -->
 

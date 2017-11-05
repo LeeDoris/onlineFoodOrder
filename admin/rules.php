@@ -47,13 +47,9 @@ if(isset($_POST['id'])){
   $result_update= mysqli_query($link, $update) or die(mysqli_error($link));
   if($result_update){
    echo"  <script type='text/javascript'>";
-   echo" alert('Change saved.');";
-   echo" history.go(0);";
    echo "  </script> ";
   }else{
    echo"  <script type='text/javascript'>";
-   echo" alert('Change failed.');";
-   echo" history.go(0);";
    echo "  </script> ";
   } 
   
@@ -64,13 +60,9 @@ if(isset($_POST['id'])){
   $result_update= mysqli_query($link, $update) or die(mysqli_error($link));
   if($result_update){
    echo"  <script type='text/javascript'>";
-   echo" alert('Change saved.');";
-   echo" history.go(0);";
    echo "  </script> ";
   }else{
    echo"  <script type='text/javascript'>";
-   echo" alert('Change failed.');";
-   echo" history.go(0);";
    echo "  </script> ";
   } 
 }
@@ -88,7 +80,7 @@ if(isset($_POST['id'])){
 <body>
 <div id="main">
 	<div id="header">
-		<a href="dashboard.php" class="logo" style="font-size:xx-large;color:orange;">Reel Room Admin Area</a>
+		<a href="dashboard.php" class="logo" style="font-size:xx-large;color:orange;">IFood Admin Area</a>
 		<ul id="top-navigation">
 			<li><span><span><a href="dashboard.php">Homepage</a></span></span></li>
 			<li><span><span><a href="orders.php">Orders</a></span></span></li>

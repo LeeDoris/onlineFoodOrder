@@ -143,7 +143,7 @@ echo "  </script> ";
 <body>
 <div id="main">
 	<div id="header">
-		<a href="dashboard.php" class="logo" style="font-size:xx-large;color:orange;">Reel Room Admin Area</a>
+		<a href="dashboard.php" class="logo" style="font-size:xx-large;color:orange;">IFood Admin Area</a>
 		<ul id="top-navigation">
 			<li><span><span><a href="dashboard.php">Homepage</a></span></span></li>
 			<li><span><span><a href="orders.php">Orders</a></span></span></li>

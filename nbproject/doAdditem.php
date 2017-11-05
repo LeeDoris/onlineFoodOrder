@@ -19,7 +19,7 @@ if($_POST['item_name']!=null ){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Reel Room</title>
+<title>IFood</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -48,7 +48,7 @@ if($_POST['item_name']!=null ){
         
         <div id="site_title">
             <h1>
-                <a href="index.php">Reel Room</a>
+                <a href="index.php">IFood</a>
             </h1>
         </div>
         
@@ -100,7 +100,7 @@ if($_POST['item_name']!=null ){
 	</div> <!-- end of content wrapper -->      
     
     <div id="footer">
-    	Copyright © 2012 <a href="index.php">Reel Room</a>
+    	Copyright © 2012 <a href="index.php">IFood</a>
     </div>
 
 </div> 

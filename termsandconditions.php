@@ -26,7 +26,7 @@ if(isset($_GET['type']) && $_GET['type']!=null){
             ?>
        <h2>TERMS FOR ONLINE RESERVATION</h2>
 
-<h3>In booking a RESERVATION @ The Reel Room  you agree to the following terms and conditions:</h3>
+<h3>In booking a RESERVATION @ The IFood  you agree to the following terms and conditions:</h3>
 
 <?php while($row=  mysqli_fetch_array($result)){
                 echo "<li>".$row['description']."</li>";

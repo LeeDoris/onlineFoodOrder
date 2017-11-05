@@ -34,7 +34,7 @@ $row=mysqli_fetch_array($resultUser);
            </tr>
            <tr>
                <td>Content:</td>
-               <td><textarea rows ="5" cols="30" name ="body">Dear <?php echo $row['lastname'];?>:Best Regards,Reel Room</textarea></td>
+               <td><textarea rows ="5" cols="30" name ="body">Dear <?php echo $row['lastname'];?>:Best Regards,IFood</textarea></td>
            </tr>
            <tr>
                <td></td>

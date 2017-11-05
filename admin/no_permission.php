@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Reel Room</title>
+        <title>IFood</title>
     </head>
     <body>
 <h1>HTTP Error - Unauthorized</h1>
