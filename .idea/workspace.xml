@@ -2,64 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d25dcd1-0cf5-4ba0-9147-8f44337f43c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/content/10b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/content/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/content/8b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/content/9b.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/left.png" afterPath="$PROJECT_DIR$/images/left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/title_new.png" afterPath="$PROJECT_DIR$/images/title_new.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us.php" afterPath="$PROJECT_DIR$/about_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/allorder.php" afterPath="$PROJECT_DIR$/admin/allorder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/allreservation.php" afterPath="$PROJECT_DIR$/admin/allreservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/category.php" afterPath="$PROJECT_DIR$/admin/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/checkDetails.php" afterPath="$PROJECT_DIR$/admin/checkDetails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/contents.php" afterPath="$PROJECT_DIR$/admin/contents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dashboard.php" afterPath="$PROJECT_DIR$/admin/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dbFunctions.php" afterPath="$PROJECT_DIR$/admin/dbFunctions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/emailForm.php" afterPath="$PROJECT_DIR$/admin/emailForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="$PROJECT_DIR$/admin/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/logs.php" afterPath="$PROJECT_DIR$/admin/logs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/menu.php" afterPath="$PROJECT_DIR$/admin/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/more_detail.php" afterPath="$PROJECT_DIR$/admin/more_detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/no_permission.php" afterPath="$PROJECT_DIR$/admin/no_permission.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/order_collection.php" afterPath="$PROJECT_DIR$/admin/order_collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/order_delivery.php" afterPath="$PROJECT_DIR$/admin/order_delivery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/order_kitchen.php" afterPath="$PROJECT_DIR$/admin/order_kitchen.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/orders.php" afterPath="$PROJECT_DIR$/admin/orders.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/reservation.php" afterPath="$PROJECT_DIR$/admin/reservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/rules.php" afterPath="$PROJECT_DIR$/admin/rules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sendEmail.php" afterPath="$PROJECT_DIR$/admin/sendEmail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/setting.php" afterPath="$PROJECT_DIR$/admin/setting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/slider.php" afterPath="$PROJECT_DIR$/admin/slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/statistics.php" afterPath="$PROJECT_DIR$/admin/statistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/terms.php" afterPath="$PROJECT_DIR$/admin/terms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/updateForm.php" afterPath="$PROJECT_DIR$/admin/updateForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/updateState.php" afterPath="$PROJECT_DIR$/admin/updateState.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/users.php" afterPath="$PROJECT_DIR$/admin/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.php" afterPath="$PROJECT_DIR$/article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changepassword.php" afterPath="$PROJECT_DIR$/changepassword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confirm.php" afterPath="$PROJECT_DIR$/confirm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbFunctions.php" afterPath="$PROJECT_DIR$/dbFunctions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doGetPassword.php" afterPath="$PROJECT_DIR$/doGetPassword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doLogin.php" afterPath="$PROJECT_DIR$/doLogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doRegister.php" afterPath="$PROJECT_DIR$/doRegister.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doReservation.php" afterPath="$PROJECT_DIR$/doReservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getPassword.php" afterPath="$PROJECT_DIR$/getPassword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.php" afterPath="$PROJECT_DIR$/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/doAdditem.php" afterPath="$PROJECT_DIR$/nbproject/doAdditem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order.php" afterPath="$PROJECT_DIR$/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_confirm.php" afterPath="$PROJECT_DIR$/order_confirm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promotion.php" afterPath="$PROJECT_DIR$/promotion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r_confirmpage.php" afterPath="$PROJECT_DIR$/r_confirmpage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reservation.php" afterPath="$PROJECT_DIR$/reservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/termsandconditions.php" afterPath="$PROJECT_DIR$/termsandconditions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trackOrder.php" afterPath="$PROJECT_DIR$/trackOrder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usercenter.php" afterPath="$PROJECT_DIR$/usercenter.php" />
     </list>
     <ignored path="TastyIgniter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateState.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="updateState.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/updateState.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-225">
@@ -121,6 +66,26 @@
                 <marker date="1509890020000" expanded="true" signature="3584:3624" ph="SELECT admin... email" />
                 <marker date="1509890020000" expanded="true" signature="4456:4576" ph="INSERT INTO log... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbFunctions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/dbFunctions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbFunctions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dbFunctions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,8 +156,6 @@
       <list>
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/system/tastyigniter/config/database.php" />
-        <option value="$PROJECT_DIR$/dbFunctions.php" />
-        <option value="$PROJECT_DIR$/admin/dbFunctions.php" />
         <option value="$PROJECT_DIR$/doReservation.php" />
         <option value="$PROJECT_DIR$/doRegister.php" />
         <option value="$PROJECT_DIR$/doLogin.php" />
@@ -211,6 +174,9 @@
         <option value="$PROJECT_DIR$/confirm.php" />
         <option value="$PROJECT_DIR$/admin/sendEmail.php" />
         <option value="$PROJECT_DIR$/admin/updateState.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/admin/dbFunctions.php" />
+        <option value="$PROJECT_DIR$/dbFunctions.php" />
       </list>
     </option>
   </component>
@@ -267,20 +233,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TastyIgniter" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TastyIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TastyIgniter" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,7 +336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14880000" />
+    <option name="totallyTimeSpent" value="15471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -397,7 +349,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -425,7 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/libraries/Table.php" />
     <entry file="file://$PROJECT_DIR$/system/libraries/Trackback.php" />
     <entry file="file://$PROJECT_DIR$/system/tastyigniter/config/database.php" />
     <entry file="file://$PROJECT_DIR$/system/tastyigniter/config/template.php" />
@@ -433,14 +384,6 @@
     <entry file="file://$PROJECT_DIR$/system/tastyigniter/config/migration.php" />
     <entry file="file://$PROJECT_DIR$/setup/controllers/Setup.php" />
     <entry file="file://$PROJECT_DIR$/setup/index.php" />
-    <entry file="file://$PROJECT_DIR$/dbFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/deleteRecord.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -460,14 +403,6 @@
             <marker date="1343817568000" expanded="true" signature="4414:4449" ph="DELETE FROM " />
             <marker date="1343817568000" expanded="true" signature="4870:4913" ph="DELETE FROM " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dbFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,6 +752,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/updateState.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
@@ -831,6 +774,22 @@
             <marker date="1509890020000" expanded="true" signature="3584:3624" ph="SELECT admin... email" />
             <marker date="1509890020000" expanded="true" signature="4456:4576" ph="INSERT INTO log... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/dbFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
