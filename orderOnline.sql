@@ -11,7 +11,7 @@
  Target Server Version : 50505
  File Encoding         : utf-8
 
- Date: 11/06/2017 11:43:17 AM
+ Date: 11/06/2017 20:01:23 PM
 */
 
 SET NAMES utf8;
@@ -123,17 +123,18 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `order_item`;
 CREATE TABLE `order_item` (
-  `order_id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `order_id` int(11) DEFAULT NULL,
   `item_id` int(11) DEFAULT NULL,
-  `quantity` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`order_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+  `quantity` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `order_item`
 -- ----------------------------
 BEGIN;
-INSERT INTO `order_item` VALUES ('1', '4', '2'), ('2', '4', '2'), ('3', '4', '2'), ('4', '2', '1');
+INSERT INTO `order_item` VALUES ('1', '1', '4', '2'), ('2', '2', '4', '2'), ('3', '3', '4', '2'), ('4', '4', '2', '1'), ('5', '5', '6', '1'), ('6', '6', '2', '1'), ('7', '7', '2', '1'), ('8', '8', '2', '1'), ('9', '9', '2', '1'), ('10', '10', '2', '1'), ('11', '11', '1', '1'), ('12', '12', '1', '1'), ('13', '12', '4', '1'), ('14', '13', '3', '1'), ('15', '13', '5', '1');
 COMMIT;
 
 -- ----------------------------
@@ -151,13 +152,13 @@ CREATE TABLE `orders` (
   `address` varchar(100) DEFAULT NULL,
   `reservation` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`order_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `orders`
 -- ----------------------------
 BEGIN;
-INSERT INTO `orders` VALUES ('1', '0', '2017-11-06 09:58:00', '2017-11-07 09:56:00', '205', 'delivery', 'Accepted', 'sdfdsfsdf ', null), ('2', '0', '2017-11-06 10:03:00', '2017-11-06 10:02:00', '200', 'self_collection', 'Accepted', null, null), ('3', '0', '2017-11-06 10:46:00', '2017-11-07 10:36:00', '280', 'self_collection', 'Accepted', null, null), ('4', '1', '2017-11-06 11:09:00', '2017-11-06 14:07:00', '40', 'self_collection', 'Accepted', null, null);
+INSERT INTO `orders` VALUES ('1', '0', '2017-11-06 09:58:00', '2017-11-07 09:56:00', '205', 'delivery', 'Accepted', 'sdfdsfsdf ', null), ('2', '0', '2017-11-06 10:03:00', '2017-11-06 10:02:00', '200', 'self_collection', 'Accepted', null, null), ('3', '0', '2017-11-06 10:46:00', '2017-11-07 10:36:00', '280', 'self_collection', 'Accepted', null, null), ('4', '1', '2017-11-06 11:09:00', '2017-11-06 14:07:00', '40', 'self_collection', 'Accepted', null, null), ('5', '11', '2017-11-06 17:07:00', '2017-11-06 20:07:00', '80', 'self_collection', 'Accepted', null, null), ('6', '11', '2017-11-06 17:13:00', '2017-11-06 20:13:00', '120', 'self_collection', 'Accepted', null, null), ('7', '11', '2017-11-06 17:21:00', '2017-11-06 20:13:00', '120', 'self_collection', 'Accepted', null, null), ('8', '11', '2017-11-06 17:27:00', '2017-11-06 20:27:00', '120', 'self_collection', 'Accepted', null, null), ('9', '11', '2017-11-06 18:47:00', '2017-11-06 19:46:00', '125', 'delivery', 'Accepted', 'aadfasdf ', null), ('10', '11', '2017-11-06 18:53:00', '2017-11-07 18:52:00', '120', 'self_collection', 'Accepted', null, null), ('11', '11', '2017-11-06 19:59:00', '2017-11-06 21:58:00', '90', 'self_collection', 'Accepted', null, null), ('12', '11', '2017-11-06 19:59:00', '2017-11-06 21:58:00', '90', 'self_collection', 'Accepted', null, null), ('13', '11', '2017-11-06 20:01:00', '2017-11-07 20:00:00', '125', 'delivery', 'Accepted', 'sdfsdf ', null);
 COMMIT;
 
 -- ----------------------------
