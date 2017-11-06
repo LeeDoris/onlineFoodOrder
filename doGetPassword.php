@@ -1,6 +1,6 @@
 <?php
 error_reporting("E_ALL");
-       require_once "Mail.php";
+       require_once "admin/class.phpmailer.php";
        include 'dbFunctions.php';
        
 function createRandomPassword() {
@@ -23,15 +23,15 @@ function createRandomPassword() {
     $row=mysqli_fetch_array($result);
     if ($row['email']==$_POST['email']){
         $newpassword = createRandomPassword(); 
-                $from = "ifoodrp@gmail.com";
+                $from = "douzi.doris@gmail.com";
         $to = $_POST['email'];
         $subject = "Hi!";
         $body = "Hi,here's your password : ".$newpassword;
 
         $host = "ssl://smtp.gmail.com";
         $port = "465";
-        $username = "ifoodrp@gmail.com";
-        $password = "901031szl";
+        $username = "douzi.doris@gmail.com";
+        $password = "848323abc";
 
         $headers = array ('From' => $from,
           'To' => $to,
