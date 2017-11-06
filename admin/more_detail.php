@@ -59,7 +59,6 @@ $resultO = mysqli_query($link, $queryNum) or die(mysqli_error($link));
 			<li><span><span><a href="dashboard.php">Homepage</a></span></span></li>
 			<li><span><span><a href="orders.php">Orders</a></span></span></li>
 			<li><span><span><a href="reservation.php">Reservations</a></span></span></li>
-			<li  class="active"><span><span>Statistics</span></span></li>
 			<li><span><span><a href="contents.php">Contents</a></span></span></li>
 			<li><span><span><a href="users.php">Users</a></span></span></li>
                         <li><span><span><a href="logs.php">Logs</a></span></span></li>
@@ -72,7 +71,6 @@ $resultO = mysqli_query($link, $queryNum) or die(mysqli_error($link));
 		<div id="left-column">
 			<h3>Control Panel</h3>
 			<ul class="nav">
-				<li><a href="statistics.php">Statistics</a></li>
 				<li><a href="more_detail.php">Item Sold</a></li>
 			</ul>
 		</div>

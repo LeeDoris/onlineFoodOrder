@@ -148,7 +148,6 @@ echo "  </script> ";
 			<li><span><span><a href="dashboard.php">Homepage</a></span></span></li>
 			<li><span><span><a href="orders.php">Orders</a></span></span></li>
 			<li><span><span><a href="reservation.php">Reservations</a></span></span></li>
-			<li><span><span><a href="statistics.php">Statistics</a></span></span></li>
 			<li class="active"><span><span>Contents</span></span></li>
 			<li><span><span><a href="users.php">Users</a></span></span></li>
                         <li><span><span><a href="logs.php">Logs</a></span></span></li>
