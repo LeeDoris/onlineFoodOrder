@@ -42,7 +42,7 @@ class Shopping_Cart
     {
         $HOST = 'localhost';
         $USERNAME = 'root';
-        $PASSWORD = '110';
+        $PASSWORD = '';
         $DB = 'orderOnline';
 
         $link = mysqli_connect($HOST, $USERNAME, $PASSWORD, $DB) or die(mysqli_connect_error());
@@ -73,7 +73,7 @@ class Shopping_Cart
         // goes. We'll just return something generic for this tutorial.
         $HOST = 'localhost';
         $USERNAME = 'root';
-        $PASSWORD = '110';
+        $PASSWORD = '';
         $DB = 'orderOnline';
 
         $link = mysqli_connect($HOST, $USERNAME, $PASSWORD, $DB) or die(mysqli_connect_error());

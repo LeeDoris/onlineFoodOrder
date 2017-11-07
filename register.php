@@ -13,9 +13,9 @@
 <div id="container_wrapper_inner">
 
 <div id="container">
-	 
+
     <div id="menu">
-        
+
         <div id="main_Logo"></div>
     <ul id="nav">
             <li><a href="index.php">Home</a></li>
@@ -26,21 +26,21 @@
             <li><a href="trackOrder.php">My IFood</a></li>
             <li><a href="about_us.php">About US</a></li>
 </ul>
-        
- </div>	
+
+ </div>
     <div id="content_wrapper">
         <div id="content">
-        
+
         	<div id="main_column">
-            	
+
                 <div class="section_w590" style="width: 800px;">
-                	
+
                     <h2>Register</h2>
-                      
-        <form enctype="multipart/form-data" method="post" action="doRegister.php" name="rform" id="rform"> 
-                    
+
+        <form enctype="multipart/form-data" method="post" action="doRegister.php" name="rform" id="rform">
+
          <table>
-             <tr><td>NRIC(Student ID for RP students):</td>
+             <tr><td>MATRIC No:</td>
                  <td><input type ="text" name="nric" /><i><span style="font-size: 10px; margin-left:10px;" id='rform_nric_errorloc' class="error_strings"></span></i></td>
              </tr>
              <tr><td>First Name:</td>
@@ -55,7 +55,7 @@
                  <td><input type="text" name="email"/><i><span style="font-size: 10px; margin-left:10px;" id='rform_email_errorloc' class="error_strings"></span></i></td>
              </tr>
              <tr>
-      
+
              <td><label for="dob">Date of Birth</label></td>
                         <td><input id="dob" name ="dob" type="text" size="25" readonly="readonly"/><a href="javascript:NewCal('dob','yyyymmdd')"><img src="images/cal.gif" width="20" height="20" border="1" alt="Pick a date" /></a><i><span style="font-size: 10px; margin-left:10px;" id='rform_dob_errorloc' class="error_strings"></span></i></td>
              </tr>
@@ -88,7 +88,7 @@
               </tr>
              <tr><td></td><td><input type="submit" value ="Submit" id="button"/></td>
              </tr>
-          
+
          </table>
               </form>
 <script language="JavaScript" type="text/javascript">
@@ -116,25 +116,25 @@
     frmvalidator.addValidation("confirmpassword","eqelmnt=password","The confirmed password should be same as password.");
 </script>
 
-                    
-                </div> 
-                
-                
+
+                </div>
+
+
             </div> <!-- end of main column -->
-            
-        
+
+
         <div class="cleaner"></div>
         </div> <!-- end of content -->
 
         <div class="cleaner"></div>
         <div class="content_bottom"></div>
-	</div> <!-- end of content wrapper -->      
-    
+	</div> <!-- end of content wrapper -->
+
     <div id="footer">
     	Copyright © 2017 <a href="index.php">IFood</a>
     </div>
-   
-</div> 
+
+</div>
 <!-- end of container -->
 
 </div>
