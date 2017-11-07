@@ -98,7 +98,6 @@ $result = mysqli_query($link, $query) or die(mysqli_error($link));
     <ul id="nav">
             <li><a href="index.php">Home</a></li>
             <li><a href="promotion.php">News</a></li>
-            <li><a href="promotion.php?category=Promotion">Promotion</a></li>
             <li><a href="menu.php" >Menu</a></li>
             <li><a href="reservation.php">Reservation</a></li>
             <li><a href="order.php" >Order</a></li>
